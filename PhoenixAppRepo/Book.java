@@ -2,6 +2,7 @@ class Book
 {
 private int bookId;
 private String name;
+private String author;
 
 public int getbookId()
 {return bookId;
@@ -21,4 +22,7 @@ public void setName()
 	this.bookName=bookName;
 	return bookName;
 }
+public String SetAuthor()
+{
+	this.author=author;
 }
